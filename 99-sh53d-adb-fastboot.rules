@@ -1,0 +1,2 @@
+SUBSYSTEM=="usb", ATTR{idVendor}=="0489", ATTR{idProduct}=="c009", MODE="0660", GROUP="plugdev", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTR{idVendor}=="0489", ATTR{idProduct}=="c043", MODE="0660", GROUP="plugdev", TAG+="uaccess"
